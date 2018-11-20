@@ -12,7 +12,7 @@
 - python 3.6
 
 # Execution
-> (rigid head): python SejongToDependency.py -root_dir corpus_folder_path -save_file result  -head_initial ./Rules/linear_rules.txt -head_final 1
+> (rigid head): python SejongToDependency.py -root_dir corpus_folder_path -save_file result  -head_initial_file ./Rules/linear_rules.txt -head_final 1
 > (non-rigid head): python SejongToDependency.py -root_dir corpus_folder_path -save_file result  -head_initial_file ./Rules/linear_rules.txt -head_final 0
 
 
